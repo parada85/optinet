@@ -1,0 +1,6 @@
+<FilesMatch "(?i)^.*\.(ico|flv|jpg|jpeg|png|gif|js|css)$">
+ExpiresActive On     
+ExpiresDefault "access plus 1 year"
+</FilesMatch>
+
+AddOutputFilterByType DEFLATE text/html text/css application/javascript
